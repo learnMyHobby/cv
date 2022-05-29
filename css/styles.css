@@ -1,0 +1,161 @@
+#title{
+    background-color: #ff4c68;
+}
+body{
+    font-family: "Montserrat";
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bolder;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.fa-solid{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: #8f8f8f;
+    text-align: center;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+/* Navigation bar */
+
+#title-logo{
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #fff; */
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 2rem;
+}
+.nav-item{
+    padding: 0 18px;
+    
+}
+.nav-link{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+}
+.download-button{
+    margin: 5% 3% 5%  0;
+}
+.title-img{
+    transform: rotate(25deg);
+    width: 60%;
+    right: 30%;
+    /* position: absolute; */
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+}
+/* features section */
+#features{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.test-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin-left: 5%;
+}
+.carousel-item{
+    padding: 5% 17%;
+}
+#pricing{
+    padding: 5%;
+}
+#hover-btn{
+    background-color: #ef8172;
+}
+.card-body{
+    text-align: center;
+}
+.pricing-column{
+    padding: 5% 3%;
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 10% 5%;
+    text-align: center;
+}
+#footer{
+    padding: 5% 5%;
+    text-align: center;
+    background-color: #fff;
+}
+.log{
+    padding: 5px;
+    margin: 5px;
+}
+.aa{
+    font-size: 2rem;
+}
+@media (max-width: 992px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0);
+        position: static;
+        text-align: center;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
